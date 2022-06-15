@@ -10,7 +10,7 @@
 #define WIFI_PASSWORD "12345678"
 
  
-//Define FirebaseESP32 data object
+//Define FirebaseESP32 Data Object
 FirebaseData firebaseData;
 FirebaseJson json;
 
