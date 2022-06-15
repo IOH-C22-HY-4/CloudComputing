@@ -100,7 +100,7 @@ void loop()
   Serial.print("EC Value: ");
   Serial.println(ECValue, 2);
   json.set("/data", ECValue);
-  Firebase.updateNode(firebaseData,"/Sensor/tdsSensor",json);
+  Firebase.updateNode(firebaseData,"/Sensor/ecSensor",json);
 
   //Fungsi TDS Sensor
   gravityTds.setTemperature(temperature);
@@ -110,7 +110,7 @@ void loop()
   Serial.print(tdsValue,0);
   Serial.println("ppm");
   json.set("/data", tdsValue);
-  Firebase.updateNode(firebaseData,"/Sensor/ecSensor",json);
+  Firebase.updateNode(firebaseData,"/Sensor/tdsSensor",json);
 
   //Fungsi pH Sensor
   int measurings=0;
