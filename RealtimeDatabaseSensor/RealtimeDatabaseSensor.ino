@@ -6,8 +6,8 @@
  
 #define FIREBASE_HOST "https://hy-ponics-default-rtdb.asia-southeast1.firebasedatabase.app/"
 #define FIREBASE_AUTH "4uf7trG1VaWpdByprGSIxSOCpWK9KWM4xJhLp9E1"
-#define WIFI_SSID "KUDA PUTIH"
-#define WIFI_PASSWORD "2566625666"
+#define WIFI_SSID "WIFI_SSID"
+#define WIFI_PASSWORD "12345678"
 
  
 //Define FirebaseESP32 data object
